@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-LABEL mainteiner="joaodanilo19922@gmail.com"
+LABEL maintainer="joaodanilo19922@gmail.com"
 LABEL version="0.1"
 LABEL description="Ambiente de programação para o curso.dev"
 
