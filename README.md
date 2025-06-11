@@ -16,5 +16,5 @@ Para criar a instância da imagem, usei o comando:
 docker run --name curso-dev --network host -v ./workdir:/workspace -v /var/run/docker.sock:/var/run/docker.sock -it curso-dev
 ```
 
-> --network host: Foi necessário para acessar o postgres (outro docker container). Esse comando utiliza a mesma inteface de rede do PC host.
-> -v /var/run/docker.sock:/var/run/docker.sock: Foi necessário para que consiga rodar o docker dentro de um docker container
+> **--network host**: Foi necessário para acessar o postgres (outro docker container). Esse comando utiliza a mesma inteface de rede do PC host. </br> 
+> **-v /var/run/docker.sock:/var/run/docker.sock**: Foi necessário para que consiga rodar o docker dentro de um docker container
